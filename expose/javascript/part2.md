@@ -25,9 +25,9 @@
      g) '3undefined', undefined becomes string and is appended <br>
      h) NaN, undefined becomes NaN through numeric conversion <br>
 14.  a) true, '2' becomes number and 2 > 1 <br>
-     b) false, '2' and '12' become numbers and 2 <br>
-     c) <br>
-     d) <br>
-     e) <br>
-     f) <br>
+     b) false, '2' and '12' are read as strings, and 2 > 1 <br>
+     c) true, '2' becomes a number and 2 == 2 <br>
+     d) false, arguments are of different type <br>
+     e) false, true becomes 1 and 1 != 2 <br>
+     f) true, Boolean(2) becomes true so they are the same type and equal <br>
 15. == compares after type converting, while === is a direct comparison without conversion, immediately returning false if types are different.
