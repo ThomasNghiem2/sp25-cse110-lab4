@@ -31,4 +31,6 @@
      e) false, true becomes 1 and 1 != 2 <br>
      f) true, Boolean(2) becomes true so they are the same type and equal <br>
 15. == compares after type converting, while === is a direct comparison without conversion, immediately returning false if types are different.
-17. The result with be returning the array [2, 4, 6]. When runnning modifyArray, it iterates through the given array and for each iteration, pushes the result from the callback function into the initially empty newArr. Since this callback function doubles the number's value, the final result is the original array, but each value is doubled. 
+16. In part2-question16.js
+17. The result with be returning the array [2, 4, 6]. When runnning modifyArray, it iterates through the given array and for each iteration, pushes the result from the callback function into the initially empty newArr. Since this callback function doubles the number's value, the final result is the original array, but each value is doubled.
+18. In  part2-question18.js
