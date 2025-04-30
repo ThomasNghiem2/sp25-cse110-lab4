@@ -11,4 +11,23 @@
 9. There is an error at line 11, as i is not defined. This is because let makes it block-local, so it's only visible within the for loop.
 10. Line 12 prints out the number 3, since it is initially set to prices.length, which is 3.
 11. This function returns [50, 100, 150], as while it is a const variable, this only means that it can't be reassigned. The functions that modify the values inside the array still work, and thus append the halved prices to the originally empty discounted array.
-12. a) student.name  b) student['Grad Year']  c) student.greeting()  d) student['Favorite Teacher'].name  e) student.courseLoad[0]
+12. a) student.name  <br>
+    b) student['Grad Year']  <br>
+    c) student.greeting()  <br>
+    d) student['Favorite Teacher'].name <br>
+    e) student.courseLoad[0]
+13.  a) '32', number 2 becomes string and is appended <br>
+     b) 1, string 3 becomes number <br>
+     c) 3, null becomes 0 <br>
+     d) '3null', null becomes string and is appended <br>
+     e) 4, true becomes 1 <br>
+     f) 0, false and null become 0 <br>
+     g) '3undefined', undefined becomes string and is appended <br>
+     h) NaN, undefined becomes NaN through numeric conversion <br>
+14.  a) true, '2' becomes number and 2 > 1 <br>
+     b) false, '2' and '12' become numbers and 2 <br>
+     c) <br>
+     d) <br>
+     e) <br>
+     f) <br>
+15. == compares after type converting, while === is a direct comparison without conversion, immediately returning false if types are different.
