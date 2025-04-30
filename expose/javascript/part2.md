@@ -33,4 +33,5 @@
 15. == compares after type converting, while === is a direct comparison without conversion, immediately returning false if types are different.
 16. In part2-question16.js
 17. The result with be returning the array [2, 4, 6]. When runnning modifyArray, it iterates through the given array and for each iteration, pushes the result from the callback function into the initially empty newArr. Since this callback function doubles the number's value, the final result is the original array, but each value is doubled.
-18. In  part2-question18.js
+18. In part2-question18.js
+19. The code outputs 1, 4, 3, 2 in this order, as 1 and 4 have no time delay, and even though 3 has a delay of 0 ms, it is still printed after these two. Then, 2 is printed last with a delay of 1 second.
